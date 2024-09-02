@@ -22,7 +22,7 @@ jobs:
 
     - stage: Testing
       before_script:
-        - chmod +x ./gradlew  # Ensure gradlew is executable .
+        - chmod +x ./gradlew  # Ensure gradlew is executable .n
       script:
         - ./gradlew test
       after_failure:
