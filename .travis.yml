@@ -16,7 +16,7 @@ jobs:
   include:
     - stage: Building
       before_script:
-        - chmod +x ./gradlew  # Ensure gradlew is executable
+        - chmod +x ./gradlew  # Ensure gradlew is executable ...
       script:
         - ./gradlew clean compileJava
 
